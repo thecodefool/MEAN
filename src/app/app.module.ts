@@ -4,6 +4,9 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { MaterialModule } from '@angular/material';
+import { AnimationBuilder } from '@angular/animations';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { BookComponent } from './book/book.component';
@@ -28,8 +31,10 @@ const appRoutes: Routes = [
     BookCreateComponent,
     BookEditComponent
   ],
-  imports: [
+  imports: [    
     BrowserModule,
+    MaterialModule,
+    BrowserAnimationsModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes)
