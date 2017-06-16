@@ -5,7 +5,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<<<<<<< HEAD
 To Run the MongoDB connection run `ng build` then `nodemon` for a dev server. Navigate to `http://localhost:3000/`. The app will not automatically reload if you change any of the source files.
+=======
+>>>>>>> 731577601759db9138d8041af04875b3f2fb955e
 
 ## Code scaffolding
 
